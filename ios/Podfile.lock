@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - OkCore (1.3.9)
+  - okhi (0.0.1):
+    - Flutter
+    - OkCore (~> 1.3.7)
+    - OkVerify (~> 1.3.5)
+  - OkVerify (1.3.5)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - okhi (from `.symlinks/plugins/okhi/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OkCore
+    - OkVerify
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  okhi:
+    :path: ".symlinks/plugins/okhi/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  OkCore: 9c90124d2400d36225d73577f89caa7dfc3485d3
+  okhi: 5a25bf904caadcb1d7dba46c852e7b67c7014cae
+  OkVerify: 01f927ef27b48f7531012077b2dcf41ad5ae518c
+  webview_flutter_wkwebview: 02b129c6fe415e58e4ab7346512c8c2f79f678db
+
+PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048
+
+COCOAPODS: 1.11.2

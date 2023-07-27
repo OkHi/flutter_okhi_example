@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:okhi/okhi.dart';
+import 'package:okhi_flutter/okhi_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     final config = OkHiAppConfiguration(
       branchId: "", // your branchId
       clientKey: "", // your client key
-      env: OkHiEnv.sandbox,
+      env: OkHiEnv.prod,
       notification: OkHiAndroidNotification(
         title: "Verification in progress",
         text: "Verifying your address",
@@ -49,7 +49,9 @@ class AddressScreen extends StatefulWidget {
 class _AddressScreenState extends State<AddressScreen> {
   bool _launchLocationManager = false;
   BuildContext? _context;
-  final _user = OkHiUser(phone: "+254712345678");
+  final _user = OkHiUser(
+    phone: "+2348000000000",
+  );
 
   @override
   Widget build(BuildContext context) {

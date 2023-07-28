@@ -49,9 +49,8 @@ class AddressScreen extends StatefulWidget {
 class _AddressScreenState extends State<AddressScreen> {
   bool _launchLocationManager = false;
   BuildContext? _context;
-  final _user = OkHiUser(
-    phone: "+2348000000000",
-  );
+  final _user =
+      OkHiUser(phone: "+2348000000000", firstName: "Gift", lastName: "Moore");
 
   @override
   Widget build(BuildContext context) {
